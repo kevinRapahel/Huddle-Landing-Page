@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo1{
+    cursor: pointer;
+}
+
+.logo2{
+    cursor: pointer;
+}
+
+p{
+    line-height: 1.4rem;
+}
+
+.header{
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.group1{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+.group1 li{
+    background-color: white;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: 710;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 10px -6px;
+    cursor: pointer;
+}
+
+.group1 li a{
+    transition: 0.2s ease;
+}
+
+.group1 li a:hover{
+    color: hsl(208, 11%, 55%);
+    transition: 0.2s ease;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.head{
+    font-size: 29px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text1{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 30px 0;
+}
+
+button{
+    padding: 15px 60px;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: hsl(322, 73%, 74%);
+    transition: 0.3s ease;
+}
+
+.img1{
+    margin: 60px 0 40px 0;
+}
+
+.card1{
+    /* border: 1px solid; */
+    margin: 60px 20px 40px 20px;
+    border-radius: 15px;
+    padding: 70px 50px 30px 40px;
+    box-shadow: 0px 0px 10px -6px;
+}
+.card2{
+    /* border: 1px solid; */
+    margin: 40px 20px 40px 20px;
+    border-radius: 15px;
+    padding: 70px 50px 30px 40px;
+    box-shadow: 0px 0px 10px -6px;
+}
+.card3{
+    /* border: 1px solid; */
+    margin: 40px 20px 40px 20px;
+    border-radius: 15px;
+    padding: 70px 50px 30px 40px;
+    box-shadow: 0px 0px 10px -6px;
+}
+
+.head2{
+    margin: 50px 0 20px 0;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text2{
+    font-size: 16px;
+    color: hsl(208, 11%, 55%);
+}
+
+.card4{
+    margin: 60px 20px 40px 20px;
+    box-shadow: 0px 0px 10px -6px;
+    padding: 50px 20px;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+    top: 120px;
+}
+
+.head5{
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card5{
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.logo2{
+    margin: 10px auto;
+}
+
+.card5-icons{
+    display: flex; 
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.footlink li a{
+    color: white;
+    transition: 0.3s ease;
+}
+
+.footlink li a:hover{
+    border-bottom: 1px solid white;
+    transition: 0.3s ease;
+}
+
+.footlink li{
+    padding: 8px 0;
+}
+
+.footlink{
+    margin: 30px 0;
+}
+
+.face{
+    text-align: center;
+}
+
+.face img{
+    margin: 15px 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 4px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.copyright{
+    padding-bottom: 40px;
+    font-size: 12px;
+}
+
+.main2{
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+
+    .main{
+        display: none;
+    }
+
+    .main2{
+        display: block;
+    }
+
+    .header{
+        background-image: url(/images/bg-hero-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sub2{
+        display: flex;
+        justify-content: space-around;
+        gap: 200px;
+    }
+
+    .card5{
+        display: flex;
+        justify-content: space-between;
+        /* position: relative; */
+
+    }
+    
+    .footlink{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .link1{
+        margin: 20px 150px 0 0;
+    }
+
+    .link1 li{
+        padding: 12px 0;
+    }
+    .link2 li{
+        padding: 12px 0;
+    }
+
+    .link2{
+        /* margin-top: 60px; */
+        position: relative;
+        top: 50px;
+    }
+
+    .face{
+        margin: 60px 100px 0 0;
+    }
+
+    .copyright{
+        position: relative;
+        top: 170px;
+    }
+
+    .card1{
+        margin: 80px 50px 40px 50px;
+    }
+    .card2{
+        margin: 40px 50px 40px 50px;
+    }
+    .card3{
+        margin: 40px 50px 40px 50px;
+    }
+
+    .sub1{
+        margin: 60px 0 0 40px;
+    }
+
+    .sub{
+        display: flex;
+    }
+
+    .img1{
+        position: relative;
+        top: -100px;
+        right: -60px;
+        
+    }
+
+    .group1{
+        padding: 40px 50px;
+    }
+
+    .link1{
+        padding: 7px 10px;
+        /* margin: 60px 80px 0 0; */
+        position: relative;
+        top: 30px;
+    }
+
+    .card4{
+        margin: 0 350px;
+        padding-left: 100px;
+        position: relative;
+        top: 80px;
+    }
+
+    .card4 button{
+        margin-left: 45px;
+    }
+
+    .grid3{
+        margin: 40px;
+    }
+}
